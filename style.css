@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    font-family:'ubuntu' ,sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background: #000;
+    align-items: center;
+    height: 65px;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background: #000;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url(music\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.icons{
+    margin: 12px;
+}
+ i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 55px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: #000;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 10px;
+
+}
+.songitem img{
+    width: 43px;
+    height: 40px;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    font-family:'ubuntu' ,sans-serif;
+
+
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-top: 8px;
+}
