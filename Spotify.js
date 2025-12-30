@@ -112,7 +112,7 @@ next.addEventListener("click",()=>{
 
 })
 previous.addEventListener("click",()=>{
-    if(songindex>=0){
+    if(songindex<=0){
         songindex = 0;
 
     }
